@@ -42,65 +42,21 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Confluent Cloud](https://www.confluent.io/)**  
-
-  Fully managed Apache Kafka platform with stream processing capabilities (including Flink and ksqlDB), connectors, governance, and enterprise features from the creators of Kafka.
-
-
-
-- **[Flink Cloud by Ververica](https://www.ververica.com/)**  
-
-  Managed Apache Flink service from the original Flink company, focused on production-grade stream processing and stateful computations.
-
-
-
-- **[Decodable](https://www.decodable.co/)**  
-
-  Modern managed Apache Flink platform emphasizing SQL-first development, simplicity, and pay-per-use compute for stream pipelines.
-
-
-
-- **[Aiven for Apache Flink](https://aiven.io/)**  
-
-  Managed Flink (and Kafka/Pulsar) offering from Aiven, providing open-source-compatible streaming infrastructure with operational simplicity.
-
-
-
-- **[Upsolver](https://www.upsolver.com/)**  
-
-  Cloud platform for building and managing streaming data pipelines and lakehouse-oriented transformations with a low-code/SQL approach.
-
-
-
-- **[RisingWave Cloud](https://risingwave.com/)**  
-
-  Managed service for the RisingWave streaming database, offering PostgreSQL-compatible streaming SQL and real-time materialized views.
-
-
-
-- **[Tinybird](https://www.tinybird.co/)**  
-
-  Real-time analytics platform built on ClickHouse that supports streaming ingestion and low-latency SQL over event data.
-
-
-
-- **[Materialize Cloud](https://materialize.com/)**  
-
-  Managed streaming database that maintains incrementally updated materialized views with strong consistency and PostgreSQL compatibility.
-
-
-
-- **[Estuary, DeltaStream](https://estuary.dev/)**  
-
-  Additional streaming and real-time data platforms focused on change data capture, continuous pipelines, and streaming SQL.
-
-
-
-- **[Other managed streaming services](https://www.confluent.io/)**  
-
-  Cloud offerings from AWS (Managed Flink / Kinesis), Google, Azure, and specialized vendors that provide hosted stream processing and event streaming.
+| Platform | Overview | Starting Pricing | Free Tier / Trial Limits |
+|---|---|---|---|
+| **[Confluent Cloud](https://www.confluent.io/)** | Fully managed Apache Kafka & Flink platform with stream processing, connectors, and governance from Kafka creators. | Starts at **$0.14 / eCKU-hour** (Basic cluster) + $0.05/GB data transfer and $0.08/GB-month storage | **30-day free trial** with **$400 in free credits** valid across all services |
+| **[Flink Cloud by Ververica](https://www.ververica.com/)** | Managed Apache Flink service from original Flink founders for production stream processing & stateful apps. | Starts at **0.01 Compute Unit (centiCU) / hour** ($0.01/centiCU-hr on AWS/Azure Marketplace) | **$400 in free credits** for platform trial; Free-forever Community Edition (self-managed Helm) |
+| **[Decodable](https://www.decodable.co/)** | Modern managed Flink platform emphasizing SQL-first development and pay-per-use stream pipelines. | Starts at **$0.12 / task credit** (On-Demand pay-as-you-go; $0.10/credit on Enterprise) | **Free-forever plan** ($0/mo, up to 4 active tasks, capped streams & short retention) |
+| **[Aiven for Apache Flink](https://aiven.io/)** | Managed Flink & Kafka service delivering open-source streaming infrastructure with operational simplicity. | Starts at **$0.57 / hour** (~$400/month for single-node deployment) | **30-day free trial** with **$300 in free credits** across Aiven services |
+| **[Upsolver](https://www.upsolver.com/)** | Cloud data platform for streaming data ingestion, continuous SQL pipelines, and lakehouse transformations. | Starts at **$99 / TB ingested** (or $0.09 / RSU-hour on AWS Marketplace) | **30-day free trial** on AWS Marketplace with unlimited test queries |
+| **[RisingWave Cloud](https://risingwave.com/)** | Managed service for RisingWave streaming database, featuring PostgreSQL-compatible streaming SQL & materialized views. | Starts at **$0.227 / RWU-hour** (Basic tier; 1 RWU = 1 vCPU / 4GB RAM) | **7-day free trial** (up to 4 RWUs / 4 vCPUs and 16 GiB RAM limit) |
+| **[Tinybird](https://www.tinybird.co/)** | Real-time analytics platform built on ClickHouse for streaming ingestion and low-latency SQL APIs. | Starts at **$25 / month** (Developer Plan) | **Free-forever Build Plan** (10 GB storage, 300 vCPU hrs/mo, 1,000 requests/day, max 0.5 vCPU) |
+| **[Materialize Cloud](https://materialize.com/)** | Managed streaming database maintaining incrementally updated materialized views with strong PostgreSQL consistency. | Starts at **$0.375 / hour** ($1.50/Compute Credit per hour, min 0.25 credit / 25cc cluster) | **7-day free trial** (capped at 4 compute credits per hour across clusters) |
+| **[Estuary](https://estuary.dev/)** | Real-time data integration platform focused on CDC, continuous pipelines, and streaming SQL. | Starts at **$0.75 / GB** data moved (Cloud Plan pay-as-you-go, + $100/connector/month capped) | **Free-forever plan** (10 GB/mo data movement, 2 active connectors) & 30-day trial |
+| **[DeltaStream](https://deltastream.io/)** | Serverless stream processing platform powered by Flink & Kafka for real-time streaming SQL & continuous analytics. | Starts at **$300 / month** (AWS Marketplace starter tier) | **14-day free trial** (includes sample Kafka `trial_store` environment & web console) |
+| **[AWS Managed Service for Apache Flink](https://aws.amazon.com/managed-service-for-apache-flink/)** | Fully managed AWS service running Apache Flink applications without managing cluster infrastructure. | Starts at **$0.11 / KPU-hour** (Kinesis Processing Unit: 1 vCPU + 4GB RAM) | **$200 in free credits for 30 days** via AWS Free Tier new accounts |
+| **[Google Cloud Dataflow](https://cloud.google.com/dataflow)** | Serverless, fully managed service for unified stream and batch processing using Apache Beam. | Starts at **$0.056 / vCPU-hour** and $0.00355 / GB-hour | **$300 in free credits for 90 days** for new GCP accounts |
+| **[Azure Stream Analytics](https://azure.microsoft.com/services/stream-analytics/)** | Managed real-time analytics and complex event-processing engine on Microsoft Azure. | Starts at **$0.11 / Streaming Unit (SU)-hour** | **$200 in free credits for 30 days** for new Azure accounts |
 
 
 
